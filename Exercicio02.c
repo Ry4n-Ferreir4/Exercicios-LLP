@@ -10,7 +10,7 @@ int main(void) {
   for (i = 0; i < 3; i++){
     for (j = 0; j < 3; j++){
       if (i == j)
-        matrizSoma[i][j] = matrix[i][j] + matrix[i][j];
+        matrizSoma[i][j] = matrix[i][j] + matrix2[i][j];
         printf("Matriz[%d][%d]: %d\n", i, j, matrizSoma[i][j]);
       
       }
