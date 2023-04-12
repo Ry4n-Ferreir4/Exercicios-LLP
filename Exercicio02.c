@@ -15,7 +15,7 @@ int main() {
     
   }
   
-  printf("\n\n Matriz =\n");
+  printf("\n\n Matriz2 =\n");
   for (i = 0; i < 3; i++) {
     for (j = 0; j < 3; j++) {
       printf(" %d", matrix2[i][j]);
